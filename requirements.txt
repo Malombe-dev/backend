@@ -3,8 +3,8 @@ flask-bcrypt
 mysql-connector-python
 Flask-Cors
 Flask-SocketIO
+Flask-SQLAlchemy
 SQLAlchemy
 eventlet
-Werkzeug
 gunicorn
-
+Werkzeug
