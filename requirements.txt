@@ -6,3 +6,4 @@ Flask-SocketIO
 SQLAlchemy
 eventlet        # SocketIO requires an async worker
 Werkzeug
+web: gunicorn --worker-class eventlet -w 1 app:app
