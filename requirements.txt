@@ -4,6 +4,7 @@ mysql-connector-python
 Flask-Cors
 Flask-SocketIO
 SQLAlchemy
-eventlet        # SocketIO requires an async worker
+eventlet
 Werkzeug
-web: gunicorn --worker-class eventlet -w 1 app:app
+gunicorn
+
